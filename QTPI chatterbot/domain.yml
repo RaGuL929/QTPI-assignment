@@ -1,0 +1,66 @@
+intents:
+- greet
+- about
+- location
+- fees
+- courses
+- placement
+entities:
+- about_name
+- about_found
+- about_dean
+- about_chancellor
+- cse
+- ece 
+- mech
+
+actions:
+- utter_greet
+- utter_name_college
+- utter_dean_name
+- utter_chancellor_name
+- utter_courses
+- utter_location
+- utter_fees
+- utter_cse
+- utter_ece
+- utter_mech
+- utter_placement
+- utter_unclear
+
+responses:
+  utter_greet:
+  - text: "Hey!I am the collegechatbot.How can i help you?"
+
+  utter_name_college:
+  - text: "college name is Amrita Vishwa Vidhyapeetham"
+  
+  utter_dean_name:
+  - text: "dean name is Dr. Sasangan Ramanathan"
+  
+  utter_chancellor_name:
+  - text: "Chacellor name is Mata Amritanandamayi"
+  
+  utter_unclear:
+  - text: "I am not sure what you are aiming for.Pls restart the bot if you want to start again using command ' /restart'"
+  
+  utter_location:
+  - text: "Amrita Vishwa Vidhyapeetham is located at Amritanagar, Ettimadai, Coimbatore, Tamil Nadu 641112. Google Map link :- https://goo.gl/maps/JtrLF2wQ5DND69tq8"
+  
+  utter_fees:
+  - text: "Fees is 2,00,000 inclusive of all charges"
+  
+  utter_courses:
+  - text: "College offers CSE,Mech and ECE"
+
+  utter_cse:
+  - text: "Cse is one of the emerging field in today's market.You can connect with our cse dept and also view syllabus at https://www.amrita.edu/school/engineering/coimbatore/computer-science"
+  
+  utter_ece:
+  - text: "ECE is one of the emerging field in today's market.You can connect with our cse dept and also view syllabus at https://www.amrita.edu/school/engineering/bengaluru/electronics-and-communication"
+  
+  utter_mech: 
+  - text: "Mechanical Engineering is one of the emerging field in today's market.You can connect with our cse dept and also view syllabus at https://www.amrita.edu/school/engineering/bengaluru/mechanical"
+  
+  utter_placement:
+  - text: "Coperate Industrial Relations is working hard to find the right jop for right people.Not Everyone wants to work same 9-6 job and we strive to bring big companies like QTPI"
